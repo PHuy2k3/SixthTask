@@ -1,0 +1,16 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <ItemGroup>
+    <ProjectReference Include="..\Posts.Biz.Model\Posts.Biz.Model.csproj" />
+    <ProjectReference Include="..\Posts.Data\Posts.Data.csproj" />
+    <ProjectReference Include="..\Posts.Data.Model\Posts.Data.Model.csproj" />
+    <ProjectReference Include="..\..\..\shared\Shared.Kernel\Shared.Kernel.csproj" />
+  </ItemGroup>
+
+  <PropertyGroup>
+    <TargetFramework>net10.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+</Project>

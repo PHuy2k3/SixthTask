@@ -1,7 +1,11 @@
 ﻿using Microsoft.AspNetCore.Authentication.JwtBearer;
+using Microsoft.EntityFrameworkCore;
 using Microsoft.IdentityModel.Tokens;
 using Posts.Biz;
+using Posts.Biz.Interfaces;
 using Posts.Data;
+using Posts.Data.Interfaces;
+using Posts.Data.Repositories;
 using Shared.Kernel;
 using System.Text;
 
@@ -15,17 +19,26 @@ builder.Services.AddSwaggerGen();
 // CORS (CRA)
 builder.Services.AddCors(opt =>
 {
-    opt.AddPolicy("FE", p =>
-        p.WithOrigins("http://localhost:3000")
-         .AllowAnyHeader()
-         .AllowAnyMethod()
-    // .AllowCredentials() // chỉ bật nếu dùng cookie
+    opt.AddPolicy("FE", p => p
+        .WithOrigins("http://localhost:3000")
+        .AllowAnyHeader()
+        .AllowAnyMethod()
     );
 });
 
+
 // Data + Biz
-builder.Services.AddPostsData(builder.Configuration);
+//builder.Services.AddPostsData(builder.Configuration);
 builder.Services.AddPostsBiz();
+builder.Services.AddDbContext<PostsDbContext>(opt =>
+    opt.UseSqlServer(builder.Configuration.GetConnectionString("PostsDb")));
+
+builder.Services.AddScoped<IPostRepository, PostRepository>();
+builder.Services.AddScoped<ILikeRepository, LikeRepository>();
+builder.Services.AddScoped<ICommentRepository, CommentRepository>();
+builder.Services.AddScoped<IPostMediaRepository, PostMediaRepository>();
+builder.Services.AddScoped<IPostService, PostService>();
+
 
 // JWT validate (Posts cũng cần verify token nếu endpoint yêu cầu [Authorize])
 // Dùng chung secret với Identity
@@ -53,19 +66,22 @@ builder.Services.AddAuthorization();
 
 var app = builder.Build();
 
-// Global exception -> BizException
-app.UseMiddleware<ExceptionMiddleware>();
-
 // Swagger
 app.UseSwagger();
 app.UseSwaggerUI();
 
-// CORS
+// ✅ CORS đặt sớm
 app.UseCors("FE");
+
+// ✅ Static files (uploads) nên trước auth nếu bạn muốn public
+app.UseStaticFiles();
 
 // Auth
 app.UseAuthentication();
 app.UseAuthorization();
+
+// Global exception (đặt sau CORS để response luôn có header CORS)
+app.UseMiddleware<ExceptionMiddleware>();
 
 app.MapControllers();
 app.Run();

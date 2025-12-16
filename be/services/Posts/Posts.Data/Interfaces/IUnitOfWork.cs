@@ -1,4 +1,4 @@
-﻿namespace Posts.Data;
+﻿namespace Posts.Data.Interfaces;
 
 public interface IUnitOfWork
 {

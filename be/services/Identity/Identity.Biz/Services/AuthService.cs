@@ -116,6 +116,6 @@ public class AuthService : IAuthService
             IsRevoked = false
         });
 
-        return new AuthResult(access, refreshPlain, accessExp);
+        return new AuthResult(access, refreshPlain, accessExp, user.UserName);
     }
 }

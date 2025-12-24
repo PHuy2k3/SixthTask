@@ -1,4 +1,4 @@
-﻿namespace Shared.Kernel;
+﻿namespace Shared.Kernel.Helpers;
 
 public static class TimeHelper
 {

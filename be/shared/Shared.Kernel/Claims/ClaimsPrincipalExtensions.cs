@@ -1,14 +1,14 @@
 ﻿using System.Security.Claims;
 
-namespace Shared.Kernel;
+namespace Shared.Kernel.Claims;
 
 public static class ClaimsPrincipalExtensions
 {
     public static Guid GetUserId(this ClaimsPrincipal user)
     {
         var id =
-            user.FindFirstValue(ClaimTypes.NameIdentifier) ??
-            user.FindFirstValue("sub");
+            user.FindFirst(ClaimTypes.NameIdentifier)?.Value ??
+            user.FindFirst("sub")?.Value;
 
         if (string.IsNullOrWhiteSpace(id))
             throw new Exception("UserId claim not found");
@@ -19,8 +19,8 @@ public static class ClaimsPrincipalExtensions
     public static string GetUserName(this ClaimsPrincipal user)
     {
         return
-            user.FindFirstValue(ClaimTypes.Name) ??
-            user.FindFirstValue("name") ??
+            user.FindFirst(ClaimTypes.Name)?.Value ??
+            user.FindFirst("name")?.Value ??
             "unknown";
     }
 }

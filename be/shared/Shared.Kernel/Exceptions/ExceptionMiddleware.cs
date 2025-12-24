@@ -1,8 +1,8 @@
-﻿using Shared.Kernel.Exceptions;
+﻿using Microsoft.AspNetCore.Http;
 using System.Net.Http;
 using System.Text.Json;
 
-namespace Shared.Kernel;
+namespace Shared.Kernel.Exceptions;
 
 public class ExceptionMiddleware
 {

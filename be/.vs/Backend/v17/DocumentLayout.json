@@ -7,36 +7,56 @@
       "RelativeMoniker": "D:0:0:{740DFAC5-6B76-41DB-80B3-4EB5187EC12A}|shared\\Shared.Kernel\\Shared.Kernel.csproj|solutionrelative:shared\\shared.kernel\\shared.kernel.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{740DFAC5-6B76-41DB-80B3-4EB5187EC12A}|shared\\Shared.Kernel\\Shared.Kernel.csproj|d:\\cmc_task\\sixth-task\\be\\shared\\shared.kernel\\claims\\claimsprincipalextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{740DFAC5-6B76-41DB-80B3-4EB5187EC12A}|shared\\Shared.Kernel\\Shared.Kernel.csproj|solutionrelative:shared\\shared.kernel\\claims\\claimsprincipalextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{740DFAC5-6B76-41DB-80B3-4EB5187EC12A}|shared\\Shared.Kernel\\Shared.Kernel.csproj|d:\\cmc_task\\sixth-task\\be\\shared\\shared.kernel\\exceptions\\exceptionmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{740DFAC5-6B76-41DB-80B3-4EB5187EC12A}|shared\\Shared.Kernel\\Shared.Kernel.csproj|solutionrelative:shared\\shared.kernel\\exceptions\\exceptionmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0FE20C40-58E1-44BA-9A62-3792B004108F}|services\\Chat\\Chat.Api\\Chat.Api.csproj|d:\\cmc_task\\sixth-task\\be\\services\\chat\\chat.api\\authclaimsextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0FE20C40-58E1-44BA-9A62-3792B004108F}|services\\Chat\\Chat.Api\\Chat.Api.csproj|solutionrelative:services\\chat\\chat.api\\authclaimsextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{740DFAC5-6B76-41DB-80B3-4EB5187EC12A}|shared\\Shared.Kernel\\Shared.Kernel.csproj|d:\\cmc_task\\sixth-task\\be\\shared\\shared.kernel\\exceptions\\bizexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{740DFAC5-6B76-41DB-80B3-4EB5187EC12A}|shared\\Shared.Kernel\\Shared.Kernel.csproj|solutionrelative:shared\\shared.kernel\\exceptions\\bizexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{740DFAC5-6B76-41DB-80B3-4EB5187EC12A}|shared\\Shared.Kernel\\Shared.Kernel.csproj|d:\\cmc_task\\sixth-task\\be\\shared\\shared.kernel\\exceptions\\exceptionmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{740DFAC5-6B76-41DB-80B3-4EB5187EC12A}|shared\\Shared.Kernel\\Shared.Kernel.csproj|solutionrelative:shared\\shared.kernel\\exceptions\\exceptionmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{740DFAC5-6B76-41DB-80B3-4EB5187EC12A}|shared\\Shared.Kernel\\Shared.Kernel.csproj|d:\\cmc_task\\sixth-task\\be\\shared\\shared.kernel\\claims\\claimsprincipalextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{740DFAC5-6B76-41DB-80B3-4EB5187EC12A}|shared\\Shared.Kernel\\Shared.Kernel.csproj|solutionrelative:shared\\shared.kernel\\claims\\claimsprincipalextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{42157067-90BC-4DC9-ABF8-7BF6242B556A}|services\\Identity\\Identity.Api\\Identity.Api.csproj|d:\\cmc_task\\sixth-task\\be\\services\\identity\\identity.api\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{42157067-90BC-4DC9-ABF8-7BF6242B556A}|services\\Identity\\Identity.Api\\Identity.Api.csproj|solutionrelative:services\\identity\\identity.api\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0FE20C40-58E1-44BA-9A62-3792B004108F}|services\\Chat\\Chat.Api\\Chat.Api.csproj|d:\\cmc_task\\sixth-task\\be\\services\\chat\\chat.api\\signalruseridprovider.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0FE20C40-58E1-44BA-9A62-3792B004108F}|services\\Chat\\Chat.Api\\Chat.Api.csproj|solutionrelative:services\\chat\\chat.api\\signalruseridprovider.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B3893FC9-2293-40D1-B059-D0F52E97017B}|services\\Identity\\Identity.Biz\\Identity.Biz.csproj|d:\\cmc_task\\sixth-task\\be\\services\\identity\\identity.biz\\services\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B3893FC9-2293-40D1-B059-D0F52E97017B}|services\\Identity\\Identity.Biz\\Identity.Biz.csproj|solutionrelative:services\\identity\\identity.biz\\services\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C5F8E43A-6491-48C2-8838-7093D88CFA86}|services\\Posts\\Posts.Api\\Posts.Api.csproj|d:\\cmc_task\\sixth-task\\be\\services\\posts\\posts.api\\controllers\\postscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C5F8E43A-6491-48C2-8838-7093D88CFA86}|services\\Posts\\Posts.Api\\Posts.Api.csproj|solutionrelative:services\\posts\\posts.api\\controllers\\postscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{740DFAC5-6B76-41DB-80B3-4EB5187EC12A}|shared\\Shared.Kernel\\Shared.Kernel.csproj|d:\\cmc_task\\sixth-task\\be\\shared\\shared.kernel\\helpers\\timehelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{740DFAC5-6B76-41DB-80B3-4EB5187EC12A}|shared\\Shared.Kernel\\Shared.Kernel.csproj|solutionrelative:shared\\shared.kernel\\helpers\\timehelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{42157067-90BC-4DC9-ABF8-7BF6242B556A}|services\\Identity\\Identity.Api\\Identity.Api.csproj|d:\\cmc_task\\sixth-task\\be\\services\\identity\\identity.api\\identity.api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{42157067-90BC-4DC9-ABF8-7BF6242B556A}|services\\Identity\\Identity.Api\\Identity.Api.csproj|solutionrelative:services\\identity\\identity.api\\identity.api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0FE20C40-58E1-44BA-9A62-3792B004108F}|services\\Chat\\Chat.Api\\Chat.Api.csproj|d:\\cmc_task\\sixth-task\\be\\services\\chat\\chat.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0FE20C40-58E1-44BA-9A62-3792B004108F}|services\\Chat\\Chat.Api\\Chat.Api.csproj|solutionrelative:services\\chat\\chat.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{42157067-90BC-4DC9-ABF8-7BF6242B556A}|services\\Identity\\Identity.Api\\Identity.Api.csproj|d:\\cmc_task\\sixth-task\\be\\services\\identity\\identity.api\\controllers\\friendscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{42157067-90BC-4DC9-ABF8-7BF6242B556A}|services\\Identity\\Identity.Api\\Identity.Api.csproj|solutionrelative:services\\identity\\identity.api\\controllers\\friendscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{42157067-90BC-4DC9-ABF8-7BF6242B556A}|services\\Identity\\Identity.Api\\Identity.Api.csproj|d:\\cmc_task\\sixth-task\\be\\services\\identity\\identity.api\\identity.api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{42157067-90BC-4DC9-ABF8-7BF6242B556A}|services\\Identity\\Identity.Api\\Identity.Api.csproj|solutionrelative:services\\identity\\identity.api\\identity.api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{C5F8E43A-6491-48C2-8838-7093D88CFA86}|services\\Posts\\Posts.Api\\Posts.Api.csproj|d:\\cmc_task\\sixth-task\\be\\services\\posts\\posts.api\\posts.api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
       "RelativeMoniker": "D:0:0:{C5F8E43A-6491-48C2-8838-7093D88CFA86}|services\\Posts\\Posts.Api\\Posts.Api.csproj|solutionrelative:services\\posts\\posts.api\\posts.api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0FE20C40-58E1-44BA-9A62-3792B004108F}|services\\Chat\\Chat.Api\\Chat.Api.csproj|d:\\cmc_task\\sixth-task\\be\\services\\chat\\chat.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0FE20C40-58E1-44BA-9A62-3792B004108F}|services\\Chat\\Chat.Api\\Chat.Api.csproj|solutionrelative:services\\chat\\chat.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{0FE20C40-58E1-44BA-9A62-3792B004108F}|services\\Chat\\Chat.Api\\Chat.Api.csproj|d:\\cmc_task\\sixth-task\\be\\services\\chat\\chat.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
@@ -49,14 +69,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{0FE20C40-58E1-44BA-9A62-3792B004108F}|services\\Chat\\Chat.Api\\Chat.Api.csproj|d:\\cmc_task\\sixth-task\\be\\services\\chat\\chat.api\\hubs\\chathub.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0FE20C40-58E1-44BA-9A62-3792B004108F}|services\\Chat\\Chat.Api\\Chat.Api.csproj|solutionrelative:services\\chat\\chat.api\\hubs\\chathub.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0FE20C40-58E1-44BA-9A62-3792B004108F}|services\\Chat\\Chat.Api\\Chat.Api.csproj|d:\\cmc_task\\sixth-task\\be\\services\\chat\\chat.api\\signalruseridprovider.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0FE20C40-58E1-44BA-9A62-3792B004108F}|services\\Chat\\Chat.Api\\Chat.Api.csproj|solutionrelative:services\\chat\\chat.api\\signalruseridprovider.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0FE20C40-58E1-44BA-9A62-3792B004108F}|services\\Chat\\Chat.Api\\Chat.Api.csproj|d:\\cmc_task\\sixth-task\\be\\services\\chat\\chat.api\\authclaimsextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0FE20C40-58E1-44BA-9A62-3792B004108F}|services\\Chat\\Chat.Api\\Chat.Api.csproj|solutionrelative:services\\chat\\chat.api\\authclaimsextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{482FD254-4389-40F5-8B72-11A9A8C20506}|services\\Chat\\Chat.Biz\\Chat.Biz.csproj|d:\\cmc_task\\sixth-task\\be\\services\\chat\\chat.biz\\chatbizdi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -86,89 +98,136 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 10,
           "Children": [
             {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
+            },
+            {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 5,
+              "Title": "AuthController.cs",
+              "DocumentMoniker": "D:\\CMC_Task\\sixth-task\\be\\services\\Identity\\Identity.Api\\Controllers\\AuthController.cs",
+              "RelativeDocumentMoniker": "services\\Identity\\Identity.Api\\Controllers\\AuthController.cs",
+              "ToolTip": "D:\\CMC_Task\\sixth-task\\be\\services\\Identity\\Identity.Api\\Controllers\\AuthController.cs",
+              "RelativeToolTip": "services\\Identity\\Identity.Api\\Controllers\\AuthController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-24T04:31:01Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "AuthService.cs",
+              "DocumentMoniker": "D:\\CMC_Task\\sixth-task\\be\\services\\Identity\\Identity.Biz\\Services\\AuthService.cs",
+              "RelativeDocumentMoniker": "services\\Identity\\Identity.Biz\\Services\\AuthService.cs",
+              "ToolTip": "D:\\CMC_Task\\sixth-task\\be\\services\\Identity\\Identity.Biz\\Services\\AuthService.cs",
+              "RelativeToolTip": "services\\Identity\\Identity.Biz\\Services\\AuthService.cs",
+              "ViewState": "AgIAAEAAAAAAAAAAAAAvwFgAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-24T04:25:28.985Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "PostsController.cs",
+              "DocumentMoniker": "D:\\CMC_Task\\sixth-task\\be\\services\\Posts\\Posts.Api\\Controllers\\PostsController.cs",
+              "RelativeDocumentMoniker": "services\\Posts\\Posts.Api\\Controllers\\PostsController.cs",
+              "ToolTip": "D:\\CMC_Task\\sixth-task\\be\\services\\Posts\\Posts.Api\\Controllers\\PostsController.cs",
+              "RelativeToolTip": "services\\Posts\\Posts.Api\\Controllers\\PostsController.cs",
+              "ViewState": "AgIAABEAAAAAAAAAAAAMwCYAAABEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-24T04:18:16.458Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "BizException.cs",
               "DocumentMoniker": "D:\\CMC_Task\\sixth-task\\be\\shared\\Shared.Kernel\\Exceptions\\BizException.cs",
               "RelativeDocumentMoniker": "shared\\Shared.Kernel\\Exceptions\\BizException.cs",
               "ToolTip": "D:\\CMC_Task\\sixth-task\\be\\shared\\Shared.Kernel\\Exceptions\\BizException.cs",
               "RelativeToolTip": "shared\\Shared.Kernel\\Exceptions\\BizException.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-12-24T04:11:31.694Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 1,
               "Title": "ExceptionMiddleware.cs",
               "DocumentMoniker": "D:\\CMC_Task\\sixth-task\\be\\shared\\Shared.Kernel\\Exceptions\\ExceptionMiddleware.cs",
               "RelativeDocumentMoniker": "shared\\Shared.Kernel\\Exceptions\\ExceptionMiddleware.cs",
               "ToolTip": "D:\\CMC_Task\\sixth-task\\be\\shared\\Shared.Kernel\\Exceptions\\ExceptionMiddleware.cs",
               "RelativeToolTip": "shared\\Shared.Kernel\\Exceptions\\ExceptionMiddleware.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAA6AAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAASAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-12-24T04:11:23.606Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 9,
               "Title": "TimeHelper.cs",
               "DocumentMoniker": "D:\\CMC_Task\\sixth-task\\be\\shared\\Shared.Kernel\\Helpers\\TimeHelper.cs",
               "RelativeDocumentMoniker": "shared\\Shared.Kernel\\Helpers\\TimeHelper.cs",
               "ToolTip": "D:\\CMC_Task\\sixth-task\\be\\shared\\Shared.Kernel\\Helpers\\TimeHelper.cs",
               "RelativeToolTip": "shared\\Shared.Kernel\\Helpers\\TimeHelper.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAfAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-12-24T04:11:04.211Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ClaimsPrincipalExtensions.cs",
+              "DocumentMoniker": "D:\\CMC_Task\\sixth-task\\be\\shared\\Shared.Kernel\\Claims\\ClaimsPrincipalExtensions.cs",
+              "RelativeDocumentMoniker": "shared\\Shared.Kernel\\Claims\\ClaimsPrincipalExtensions.cs",
+              "ToolTip": "D:\\CMC_Task\\sixth-task\\be\\shared\\Shared.Kernel\\Claims\\ClaimsPrincipalExtensions.cs",
+              "RelativeToolTip": "shared\\Shared.Kernel\\Claims\\ClaimsPrincipalExtensions.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-24T03:29:47.718Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "AuthClaimsExtensions.cs",
+              "DocumentMoniker": "D:\\CMC_Task\\sixth-task\\be\\services\\Chat\\Chat.Api\\AuthClaimsExtensions.cs",
+              "RelativeDocumentMoniker": "services\\Chat\\Chat.Api\\AuthClaimsExtensions.cs",
+              "ToolTip": "D:\\CMC_Task\\sixth-task\\be\\services\\Chat\\Chat.Api\\AuthClaimsExtensions.cs",
+              "RelativeToolTip": "services\\Chat\\Chat.Api\\AuthClaimsExtensions.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-24T03:04:42.283Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Shared.Kernel",
+              "Title": "Shared.Kernel.csproj",
               "DocumentMoniker": "D:\\CMC_Task\\sixth-task\\be\\shared\\Shared.Kernel\\Shared.Kernel.csproj",
               "RelativeDocumentMoniker": "shared\\Shared.Kernel\\Shared.Kernel.csproj",
               "ToolTip": "D:\\CMC_Task\\sixth-task\\be\\shared\\Shared.Kernel\\Shared.Kernel.csproj",
               "RelativeToolTip": "shared\\Shared.Kernel\\Shared.Kernel.csproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAKAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
               "WhenOpened": "2025-12-24T04:09:39.589Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "Posts.Api",
-              "DocumentMoniker": "D:\\CMC_Task\\sixth-task\\be\\services\\Posts\\Posts.Api\\Posts.Api.csproj",
-              "RelativeDocumentMoniker": "services\\Posts\\Posts.Api\\Posts.Api.csproj",
-              "ToolTip": "D:\\CMC_Task\\sixth-task\\be\\services\\Posts\\Posts.Api\\Posts.Api.csproj",
-              "RelativeToolTip": "services\\Posts\\Posts.Api\\Posts.Api.csproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAABMAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-12-24T03:35:13.128Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Identity.Api",
-              "DocumentMoniker": "D:\\CMC_Task\\sixth-task\\be\\services\\Identity\\Identity.Api\\Identity.Api.csproj",
-              "RelativeDocumentMoniker": "services\\Identity\\Identity.Api\\Identity.Api.csproj",
-              "ToolTip": "D:\\CMC_Task\\sixth-task\\be\\services\\Identity\\Identity.Api\\Identity.Api.csproj",
-              "RelativeToolTip": "services\\Identity\\Identity.Api\\Identity.Api.csproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-12-24T03:34:43.183Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 10,
               "Title": "FriendsController.cs",
               "DocumentMoniker": "D:\\CMC_Task\\sixth-task\\be\\services\\Identity\\Identity.Api\\Controllers\\FriendsController.cs",
               "RelativeDocumentMoniker": "services\\Identity\\Identity.Api\\Controllers\\FriendsController.cs",
@@ -181,20 +240,46 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "ClaimsPrincipalExtensions.cs",
-              "DocumentMoniker": "D:\\CMC_Task\\sixth-task\\be\\shared\\Shared.Kernel\\Claims\\ClaimsPrincipalExtensions.cs",
-              "RelativeDocumentMoniker": "shared\\Shared.Kernel\\Claims\\ClaimsPrincipalExtensions.cs",
-              "ToolTip": "D:\\CMC_Task\\sixth-task\\be\\shared\\Shared.Kernel\\Claims\\ClaimsPrincipalExtensions.cs",
-              "RelativeToolTip": "shared\\Shared.Kernel\\Claims\\ClaimsPrincipalExtensions.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 6,
+              "Title": "SignalRUserIdProvider.cs",
+              "DocumentMoniker": "D:\\CMC_Task\\sixth-task\\be\\services\\Chat\\Chat.Api\\SignalRUserIdProvider.cs",
+              "RelativeDocumentMoniker": "services\\Chat\\Chat.Api\\SignalRUserIdProvider.cs",
+              "ToolTip": "D:\\CMC_Task\\sixth-task\\be\\services\\Chat\\Chat.Api\\SignalRUserIdProvider.cs",
+              "RelativeToolTip": "services\\Chat\\Chat.Api\\SignalRUserIdProvider.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-24T03:29:47.718Z",
+              "WhenOpened": "2025-12-24T03:05:22.319Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 11,
+              "Title": "Identity.Api.csproj",
+              "DocumentMoniker": "D:\\CMC_Task\\sixth-task\\be\\services\\Identity\\Identity.Api\\Identity.Api.csproj",
+              "RelativeDocumentMoniker": "services\\Identity\\Identity.Api\\Identity.Api.csproj",
+              "ToolTip": "D:\\CMC_Task\\sixth-task\\be\\services\\Identity\\Identity.Api\\Identity.Api.csproj",
+              "RelativeToolTip": "services\\Identity\\Identity.Api\\Identity.Api.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-12-24T03:34:43.183Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Posts.Api.csproj",
+              "DocumentMoniker": "D:\\CMC_Task\\sixth-task\\be\\services\\Posts\\Posts.Api\\Posts.Api.csproj",
+              "RelativeDocumentMoniker": "services\\Posts\\Posts.Api\\Posts.Api.csproj",
+              "ToolTip": "D:\\CMC_Task\\sixth-task\\be\\services\\Posts\\Posts.Api\\Posts.Api.csproj",
+              "RelativeToolTip": "services\\Posts\\Posts.Api\\Posts.Api.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAABMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-12-24T03:35:13.128Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
               "Title": "appsettings.json",
               "DocumentMoniker": "D:\\CMC_Task\\sixth-task\\be\\services\\Chat\\Chat.Api\\appsettings.json",
               "RelativeDocumentMoniker": "services\\Chat\\Chat.Api\\appsettings.json",
@@ -202,12 +287,11 @@
               "RelativeToolTip": "services\\Chat\\Chat.Api\\appsettings.json",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-12-24T03:07:30.431Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-24T03:07:30.431Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 13,
               "Title": "Program.cs",
               "DocumentMoniker": "D:\\CMC_Task\\sixth-task\\be\\services\\Chat\\Chat.Api\\Program.cs",
               "RelativeDocumentMoniker": "services\\Chat\\Chat.Api\\Program.cs",
@@ -215,12 +299,11 @@
               "RelativeToolTip": "services\\Chat\\Chat.Api\\Program.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-24T03:07:09.028Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-24T03:07:09.028Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 15,
               "Title": "ChatController.cs",
               "DocumentMoniker": "D:\\CMC_Task\\sixth-task\\be\\services\\Chat\\Chat.Api\\Controllers\\ChatController.cs",
               "RelativeDocumentMoniker": "services\\Chat\\Chat.Api\\Controllers\\ChatController.cs",
@@ -228,12 +311,11 @@
               "RelativeToolTip": "services\\Chat\\Chat.Api\\Controllers\\ChatController.cs",
               "ViewState": "AgIAAAYAAAAAAAAAAAAUwCAAAAAaAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-24T03:06:38.11Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-24T03:06:38.11Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 16,
               "Title": "ChatHub.cs",
               "DocumentMoniker": "D:\\CMC_Task\\sixth-task\\be\\services\\Chat\\Chat.Api\\Hubs\\ChatHub.cs",
               "RelativeDocumentMoniker": "services\\Chat\\Chat.Api\\Hubs\\ChatHub.cs",
@@ -241,38 +323,11 @@
               "RelativeToolTip": "services\\Chat\\Chat.Api\\Hubs\\ChatHub.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-24T03:05:46.412Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-24T03:05:46.412Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "SignalRUserIdProvider.cs",
-              "DocumentMoniker": "D:\\CMC_Task\\sixth-task\\be\\services\\Chat\\Chat.Api\\SignalRUserIdProvider.cs",
-              "RelativeDocumentMoniker": "services\\Chat\\Chat.Api\\SignalRUserIdProvider.cs",
-              "ToolTip": "D:\\CMC_Task\\sixth-task\\be\\services\\Chat\\Chat.Api\\SignalRUserIdProvider.cs",
-              "RelativeToolTip": "services\\Chat\\Chat.Api\\SignalRUserIdProvider.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-24T03:05:22.319Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "AuthClaimsExtensions.cs",
-              "DocumentMoniker": "D:\\CMC_Task\\sixth-task\\be\\services\\Chat\\Chat.Api\\AuthClaimsExtensions.cs",
-              "RelativeDocumentMoniker": "services\\Chat\\Chat.Api\\AuthClaimsExtensions.cs",
-              "ToolTip": "D:\\CMC_Task\\sixth-task\\be\\services\\Chat\\Chat.Api\\AuthClaimsExtensions.cs",
-              "RelativeToolTip": "services\\Chat\\Chat.Api\\AuthClaimsExtensions.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-24T03:04:42.283Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 17,
               "Title": "ChatBizDI.cs",
               "DocumentMoniker": "D:\\CMC_Task\\sixth-task\\be\\services\\Chat\\Chat.Biz\\ChatBizDI.cs",
               "RelativeDocumentMoniker": "services\\Chat\\Chat.Biz\\ChatBizDI.cs",
@@ -280,12 +335,11 @@
               "RelativeToolTip": "services\\Chat\\Chat.Biz\\ChatBizDI.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-24T03:04:08.672Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-24T03:04:08.672Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 19,
               "Title": "ConversationRepository.cs",
               "DocumentMoniker": "D:\\CMC_Task\\sixth-task\\be\\services\\Chat\\Chat.Data\\Repositories\\ConversationRepository.cs",
               "RelativeDocumentMoniker": "services\\Chat\\Chat.Data\\Repositories\\ConversationRepository.cs",
@@ -293,12 +347,11 @@
               "RelativeToolTip": "services\\Chat\\Chat.Data\\Repositories\\ConversationRepository.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-24T03:03:25.425Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-24T03:03:25.425Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 20,
               "Title": "IConversationRepository.cs",
               "DocumentMoniker": "D:\\CMC_Task\\sixth-task\\be\\services\\Chat\\Chat.Data\\Intefaces\\IConversationRepository.cs",
               "RelativeDocumentMoniker": "services\\Chat\\Chat.Data\\Intefaces\\IConversationRepository.cs",
@@ -306,12 +359,11 @@
               "RelativeToolTip": "services\\Chat\\Chat.Data\\Intefaces\\IConversationRepository.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-24T03:03:18.251Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-24T03:03:18.251Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 18,
               "Title": "ChatService.cs",
               "DocumentMoniker": "D:\\CMC_Task\\sixth-task\\be\\services\\Chat\\Chat.Biz\\Services\\ChatService.cs",
               "RelativeDocumentMoniker": "services\\Chat\\Chat.Biz\\Services\\ChatService.cs",
@@ -319,12 +371,11 @@
               "RelativeToolTip": "services\\Chat\\Chat.Biz\\Services\\ChatService.cs",
               "ViewState": "AgIAADUAAAAAAAAAAAAqwGYAAAAiAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-24T03:02:50.786Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-24T03:02:50.786Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 21,
               "Title": "IChatService.cs",
               "DocumentMoniker": "D:\\CMC_Task\\sixth-task\\be\\services\\Chat\\Chat.Biz\\Interfaces\\IChatService.cs",
               "RelativeDocumentMoniker": "services\\Chat\\Chat.Biz\\Interfaces\\IChatService.cs",
@@ -332,16 +383,7 @@
               "RelativeToolTip": "services\\Chat\\Chat.Biz\\Interfaces\\IChatService.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-24T03:01:11.037Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
+              "WhenOpened": "2025-12-24T03:01:11.037Z"
             }
           ]
         }

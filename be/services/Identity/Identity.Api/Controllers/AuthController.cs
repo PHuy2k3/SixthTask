@@ -23,7 +23,7 @@ public class AuthController(IAuthService biz) : ControllerBase
     [HttpPost("logout-all")]
     public Task LogoutAll()
     {
-        var sub = User.FindFirstValue(ClaimTypes.NameIdentifier) ?? User.FindFirstValue("sub");
+        var sub = User.FindFirst(ClaimTypes.NameIdentifier)?.Value ?? User.FindFirst("sub")?.Value;
         var userId = Guid.Parse(sub!);
         return biz.LogoutAllAsync(userId);
     }

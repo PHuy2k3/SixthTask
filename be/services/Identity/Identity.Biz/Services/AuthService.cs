@@ -2,7 +2,7 @@
 using Identity.Biz.Security;
 using Identity.Data;
 using Identity.Data.Model.Entities;
-using Shared.Kernel;
+using Shared.Kernel.Exceptions;
 
 namespace Identity.Biz;
 

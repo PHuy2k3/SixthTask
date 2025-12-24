@@ -19,7 +19,6 @@
   <ItemGroup>
     <ProjectReference Include="..\Posts.Biz\Posts.Biz.csproj" />
     <ProjectReference Include="..\Posts.Biz.Model\Posts.Biz.Model.csproj" />
-    <ProjectReference Include="..\..\..\shared\Shared.Kernel\Shared.Kernel.csproj" />
   </ItemGroup>
 
 </Project>

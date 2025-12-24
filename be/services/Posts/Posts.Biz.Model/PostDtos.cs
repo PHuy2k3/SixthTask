@@ -10,6 +10,7 @@ public class AddCommentReq
 {
     public string Content { get; set; } = "";
 }
+
 public sealed record PostCommentDto(
     Guid Id,
     Guid PostId,
@@ -19,6 +20,9 @@ public sealed record PostCommentDto(
     DateTime CreatedAt
 );
 
+public record ReactionCountDto(byte Type, int Count);
+public record SetReactionReq(byte Type);
+
 public record PostDto(
     Guid Id,
     Guid AuthorId,
@@ -26,9 +30,8 @@ public record PostDto(
     string Content,
     string Privacy,
     DateTime CreatedAt,
-    int LikeCount,
     int CommentCount,
-    bool LikedByMe,
-    List<string> ImageUrls
+    List<string> ImageUrls,
+    byte? MyReactionType,
+    List<ReactionCountDto> ReactionCounts
 );
-

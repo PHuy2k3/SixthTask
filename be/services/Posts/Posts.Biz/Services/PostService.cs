@@ -8,26 +8,27 @@ namespace Posts.Biz;
 public class PostService : IPostService
 {
     private readonly IPostRepository _posts;
-    private readonly ILikeRepository _likes;
     private readonly ICommentRepository _comments;
     private readonly IPostMediaRepository _media;
+    private readonly IReactionRepository _reactions;
 
     public PostService(
         IPostRepository posts,
-        ILikeRepository likes,
         ICommentRepository comments,
-        IPostMediaRepository media)
+        IPostMediaRepository media,
+        IReactionRepository reactions)
     {
         _posts = posts;
-        _likes = likes;
         _comments = comments;
         _media = media;
+        _reactions = reactions;
     }
 
-    // ✅ Create post (có thể có imageUrls)
+    static int Clamp(int s) => s <= 0 || s > 100 ? 20 : s;
+
     public async Task<PostDto> CreateAsync(CreatePostReq req, Guid userId, string userName, List<string>? imageUrls = null)
     {
-        if (string.IsNullOrWhiteSpace(req.Content) && (imageUrls is null || imageUrls.Count == 0))
+        if (string.IsNullOrWhiteSpace(req.Content) && (imageUrls == null || imageUrls.Count == 0))
             throw new Exception("Post must have content or images.");
 
         var post = new Post
@@ -42,7 +43,7 @@ public class PostService : IPostService
 
         await _posts.AddAsync(post);
 
-        if (imageUrls is { Count: > 0 })
+        if (imageUrls?.Count > 0)
         {
             var items = imageUrls
                 .Where(x => !string.IsNullOrWhiteSpace(x))
@@ -62,17 +63,38 @@ public class PostService : IPostService
         return await BuildDtoAsync(post, userId);
     }
 
-    public async Task<PostDto> ToggleLikeAsync(Guid postId, Guid userId)
+    public async Task<PostDto> SetReactionAsync(Guid postId, byte type, Guid userId, string userName)
     {
-        if (await _likes.ExistsAsync(postId, userId))
-            await _likes.RemoveAsync(postId, userId);
-        else
-            await _likes.AddAsync(new PostLike { PostId = postId, UserId = userId, CreatedAt = DateTime.UtcNow });
+        var post = await _posts.GetAsync(postId) ?? throw new Exception("Post not found");
 
-        var p = await _posts.GetAsync(postId) ?? throw new Exception("Post not found");
-        return await BuildDtoAsync(p, userId);
+        var mine = await _reactions.GetMineAsync(postId, userId);
+
+        if (mine == null)
+        {
+            await _reactions.AddAsync(new PostReaction
+            {
+                Id = Guid.NewGuid(),
+                PostId = postId,
+                UserId = userId,
+                UserName = userName,
+                Type = type,
+                CreatedAt = DateTime.UtcNow
+            });
+        }
+        else if (mine.Type == type)
+        {
+            await _reactions.RemoveAsync(mine);
+        }
+        else
+        {
+            mine.Type = type;
+            await _reactions.UpdateAsync(mine);
+        }
+
+        return await BuildDtoAsync(post, userId);
     }
 
+    // ✅ COMMENT: ADD
     public async Task<PostCommentDto> AddCommentAsync(Guid postId, AddCommentReq req, Guid userId, string userName)
     {
         if (string.IsNullOrWhiteSpace(req.Content))
@@ -96,36 +118,47 @@ public class PostService : IPostService
         return new PostCommentDto(cmt.Id, cmt.PostId, cmt.UserId, cmt.UserName, cmt.Content, cmt.CreatedAt);
     }
 
-    public async Task<List<PostDto>> GetLatestAsync(Guid meId, int size)
-        => await BuildListAsync(await _posts.GetLatestAsync(Clamp(size)), meId);
-
-    public async Task<List<PostDto>> GetMyPostsAsync(Guid meId, int size)
-        => await BuildListAsync(await _posts.GetByAuthorAsync(meId, Clamp(size)), meId);
-
+    // ✅ COMMENT: GET
     public async Task<List<PostCommentDto>> GetCommentsAsync(Guid postId)
         => (await _comments.GetByPostAsync(postId))
             .Select(c => new PostCommentDto(c.Id, c.PostId, c.UserId, c.UserName, c.Content, c.CreatedAt))
             .ToList();
 
-    // ----------------- helpers -----------------
+    public async Task<List<PostDto>> GetLatestAsync(Guid meId, int size)
+    {
+        var posts = await _posts.GetLatestAsync(Clamp(size));
+        return await BuildListAsync(posts, meId);
+    }
 
-    static int Clamp(int s) => s <= 0 || s > 100 ? 20 : s;
+    public async Task<List<PostDto>> GetMyPostsAsync(Guid meId, int size)
+    {
+        var posts = await _posts.GetByAuthorAsync(meId, Clamp(size));
+        return await BuildListAsync(posts, meId);
+    }
 
-    async Task<List<PostDto>> BuildListAsync(List<Post> posts, Guid meId)
+    private async Task<List<PostDto>> BuildListAsync(List<Post> posts, Guid meId)
     {
         var list = new List<PostDto>(posts.Count);
         foreach (var p in posts)
             list.Add(await BuildDtoAsync(p, meId));
         return list;
     }
+    public async Task<List<PostDto>> GetByUserAsync(Guid viewerId, Guid userId, int size)
+    {
+        var posts = await _posts.GetByAuthorAsync(userId, Clamp(size));
+        return await BuildListAsync(posts, viewerId);
+    }
 
-    async Task<PostDto> BuildDtoAsync(Post p, Guid meId)
+    private async Task<PostDto> BuildDtoAsync(Post p, Guid meId)
     {
         var urls = await _media.GetUrlsByPostAsync(p.Id);
-
-        var likeCount = await _likes.CountByPostAsync(p.Id);
         var commentCount = await _comments.CountByPostAsync(p.Id);
-        var likedByMe = await _likes.ExistsAsync(p.Id, meId);
+
+        var my = await _reactions.GetMineAsync(p.Id, meId);
+
+        var counts = (await _reactions.GetCountsAsync(p.Id))
+            .Select(x => new ReactionCountDto(x.Type, x.Count))
+            .ToList();
 
         return new PostDto(
             p.Id,
@@ -134,10 +167,10 @@ public class PostService : IPostService
             p.Content,
             p.Privacy,
             p.CreatedAt,
-            likeCount,
             commentCount,
-            likedByMe,
-            urls
+            urls,
+            my?.Type,
+            counts
         );
     }
 }

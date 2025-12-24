@@ -6,7 +6,7 @@ using Posts.Biz.Interfaces;
 using Posts.Data;
 using Posts.Data.Interfaces;
 using Posts.Data.Repositories;
-using Shared.Kernel;
+using Shared.Kernel.Exceptions;
 using System.Text;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -37,6 +37,7 @@ builder.Services.AddScoped<IPostRepository, PostRepository>();
 builder.Services.AddScoped<ILikeRepository, LikeRepository>();
 builder.Services.AddScoped<ICommentRepository, CommentRepository>();
 builder.Services.AddScoped<IPostMediaRepository, PostMediaRepository>();
+builder.Services.AddScoped<Posts.Data.Interfaces.IReactionRepository, Posts.Data.Repositories.ReactionRepository>();
 builder.Services.AddScoped<IPostService, PostService>();
 
 

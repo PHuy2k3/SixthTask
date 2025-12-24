@@ -4,7 +4,7 @@ using Identity.Biz.Security;
 using Identity.Data;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.IdentityModel.Tokens;
-using Shared.Kernel;
+using Shared.Kernel.Exceptions;
 using System.Text;
 
 var builder = WebApplication.CreateBuilder(args);

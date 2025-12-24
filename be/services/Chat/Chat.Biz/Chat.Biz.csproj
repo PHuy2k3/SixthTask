@@ -1,0 +1,15 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <ItemGroup>
+    <ProjectReference Include="..\Chat.Data\Chat.Data.csproj" />
+    <ProjectReference Include="..\Chat.Biz.Model\Chat.Biz.Model.csproj" />
+    <ProjectReference Include="..\Chat.Data.Model\Chat.Data.Model.csproj" />
+  </ItemGroup>
+
+  <PropertyGroup>
+    <TargetFramework>net10.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+</Project>

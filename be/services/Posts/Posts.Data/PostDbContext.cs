@@ -11,6 +11,7 @@ public class PostsDbContext : DbContext
     public DbSet<PostLike> Likes => Set<PostLike>();
     public DbSet<PostComment> Comments => Set<PostComment>();
     public DbSet<PostMedia> PostMedia => Set<PostMedia>();
+    public DbSet<Posts.Data.Model.Entities.PostReaction> PostReactions => Set<Posts.Data.Model.Entities.PostReaction>();
 
     protected override void OnModelCreating(ModelBuilder modelBuilder)
     {

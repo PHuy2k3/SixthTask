@@ -35,3 +35,14 @@ public record PostDto(
     byte? MyReactionType,
     List<ReactionCountDto> ReactionCounts
 );
+
+public sealed class UpdatePostReq
+{
+    public string Content { get; set; } = "";
+    public string Privacy { get; set; } = "public";
+}
+
+public sealed class UpdateCommentReq
+{
+    public string Content { get; set; } = "";
+}

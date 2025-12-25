@@ -11,17 +11,20 @@ public class PostService : IPostService
     private readonly ICommentRepository _comments;
     private readonly IPostMediaRepository _media;
     private readonly IReactionRepository _reactions;
+    private readonly ILikeRepository _likes;
 
     public PostService(
         IPostRepository posts,
         ICommentRepository comments,
         IPostMediaRepository media,
-        IReactionRepository reactions)
+        IReactionRepository reactions,
+        ILikeRepository likes)
     {
         _posts = posts;
         _comments = comments;
         _media = media;
         _reactions = reactions;
+        _likes = likes;
     }
 
     static int Clamp(int s) => s <= 0 || s > 100 ? 20 : s;
@@ -172,5 +175,66 @@ public class PostService : IPostService
             my?.Type,
             counts
         );
+    }
+    public async Task<PostDto> UpdatePostAsync(Guid postId, UpdatePostReq req, Guid userId)
+    {
+        var post = await _posts.GetAsync(postId) ?? throw new Exception("Post not found");
+
+        if (post.AuthorId != userId)
+            throw new Exception("You can only edit your own post");
+
+        post.Content = req.Content ?? "";
+        post.Privacy = string.IsNullOrWhiteSpace(req.Privacy) ? post.Privacy : req.Privacy;
+
+        await _posts.UpdateAsync(post);
+
+        // trả dto mới
+        return await BuildDtoAsync(post, userId);
+    }
+
+    public async Task<object> DeletePostAsync(Guid postId, Guid userId)
+    {
+        var post = await _posts.GetAsync(postId) ?? throw new Exception("Post not found");
+
+        if (post.AuthorId != userId)
+            throw new Exception("You can only delete your own post");
+
+        // Xóa “con”
+        await _comments.DeleteByPostAsync(postId);
+        await _likes.RemoveAllByPostAsync(postId);
+
+        // nếu có reactions
+        // await _reactions.RemoveAllByPostAsync(postId);
+
+        await _media.DeleteByPostAsync(postId);
+
+        // Xóa post
+        await _posts.DeleteAsync(post);
+
+        return new { ok = true };
+    }
+
+    public async Task<PostCommentDto> UpdateCommentAsync(Guid commentId, UpdateCommentReq req, Guid userId)
+    {
+        var cmt = await _comments.GetAsync(commentId) ?? throw new Exception("Comment not found");
+
+        if (cmt.UserId != userId)
+            throw new Exception("You can only edit your own comment");
+
+        cmt.Content = req.Content ?? "";
+        await _comments.UpdateAsync(cmt);
+
+        return new PostCommentDto(cmt.Id, cmt.PostId, cmt.UserId, cmt.UserName, cmt.Content, cmt.CreatedAt);
+    }
+
+    public async Task<object> DeleteCommentAsync(Guid commentId, Guid userId)
+    {
+        var cmt = await _comments.GetAsync(commentId) ?? throw new Exception("Comment not found");
+
+        if (cmt.UserId != userId)
+            throw new Exception("You can only delete your own comment");
+
+        await _comments.DeleteAsync(cmt);
+        return new { ok = true };
     }
 }

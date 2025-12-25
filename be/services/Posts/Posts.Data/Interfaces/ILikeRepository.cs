@@ -8,4 +8,6 @@ public interface ILikeRepository
     Task RemoveAsync(Guid postId, Guid userId);
     Task<bool> ExistsAsync(Guid postId, Guid userId);
     Task<int> CountByPostAsync(Guid postId);
+    Task RemoveAllByPostAsync(Guid postId);
+
 }

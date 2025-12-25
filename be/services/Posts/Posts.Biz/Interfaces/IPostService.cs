@@ -8,7 +8,11 @@ public interface IPostService
 
     Task<List<PostDto>> GetLatestAsync(Guid meId, int size);
     Task<List<PostDto>> GetMyPostsAsync(Guid meId, int size);
+    Task<PostDto> UpdatePostAsync(Guid postId, UpdatePostReq req, Guid userId);
+    Task<object> DeletePostAsync(Guid postId, Guid userId);
 
+    Task<PostCommentDto> UpdateCommentAsync(Guid commentId, UpdateCommentReq req, Guid userId);
+    Task<object> DeleteCommentAsync(Guid commentId, Guid userId);
     // ✅ COMMENT
     Task<PostCommentDto> AddCommentAsync(Guid postId, AddCommentReq req, Guid userId, string userName);
     Task<List<PostCommentDto>> GetCommentsAsync(Guid postId);

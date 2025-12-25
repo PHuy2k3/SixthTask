@@ -21,4 +21,12 @@ public class PostMediaRepository : IPostMediaRepository
             .OrderBy(x => x.CreatedAt)
             .Select(x => x.Url)
             .ToListAsync();
+    public async Task DeleteByPostAsync(Guid postId)
+    {
+        var items = await _db.PostMedia.Where(x => x.PostId == postId).ToListAsync();
+        if (items.Count == 0) return;
+
+        _db.PostMedia.RemoveRange(items);
+        await _db.SaveChangesAsync();
+    }
 }

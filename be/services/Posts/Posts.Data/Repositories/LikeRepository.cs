@@ -31,4 +31,12 @@ public class LikeRepository : ILikeRepository
 
     public Task<int> CountByPostAsync(Guid postId)
         => _db.Likes.CountAsync(x => x.PostId == postId);
+    public async Task RemoveAllByPostAsync(Guid postId)
+    {
+        var items = await _db.Likes.Where(x => x.PostId == postId).ToListAsync();
+        if (items.Count == 0) return;
+
+        _db.Likes.RemoveRange(items);
+        await _db.SaveChangesAsync();
+    }
 }

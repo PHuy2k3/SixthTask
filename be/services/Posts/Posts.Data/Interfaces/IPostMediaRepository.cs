@@ -6,4 +6,6 @@ public interface IPostMediaRepository
 {
     Task AddManyAsync(List<PostMedia> items);
     Task<List<string>> GetUrlsByPostAsync(Guid postId);
+    Task DeleteByPostAsync(Guid postId);
+
 }

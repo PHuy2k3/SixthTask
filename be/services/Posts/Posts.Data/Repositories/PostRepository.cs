@@ -34,4 +34,16 @@ public class PostRepository : IPostRepository
             .OrderByDescending(x => x.CreatedAt)
             .Take(size)
             .ToListAsync();
+    public async Task UpdateAsync(Post post)
+    {
+        _db.Posts.Update(post);
+        await _db.SaveChangesAsync();
+    }
+
+    public async Task DeleteAsync(Post post)
+    {
+        _db.Posts.Remove(post);
+        await _db.SaveChangesAsync();
+    }
+
 }

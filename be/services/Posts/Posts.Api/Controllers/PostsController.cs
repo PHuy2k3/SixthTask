@@ -46,5 +46,23 @@ public class PostsController : ControllerBase
     [HttpGet("user/{userId:guid}")]
     public Task<List<PostDto>> ByUser(Guid userId, [FromQuery] int size = 20)
     => _biz.GetByUserAsync(User.GetUserId(), userId, size);
+    [Authorize]
+    [HttpPut("{postId:guid}")]
+    public Task<PostDto> UpdatePost(Guid postId, [FromBody] UpdatePostReq req)
+        => _biz.UpdatePostAsync(postId, req, User.GetUserId());
 
+    [Authorize]
+    [HttpDelete("{postId:guid}")]
+    public Task<object> DeletePost(Guid postId)
+        => _biz.DeletePostAsync(postId, User.GetUserId());
+
+    [Authorize]
+    [HttpPut("comments/{commentId:guid}")]
+    public Task<PostCommentDto> UpdateComment(Guid commentId, [FromBody] UpdateCommentReq req)
+        => _biz.UpdateCommentAsync(commentId, req, User.GetUserId());
+
+    [Authorize]
+    [HttpDelete("comments/{commentId:guid}")]
+    public Task<object> DeleteComment(Guid commentId)
+        => _biz.DeleteCommentAsync(commentId, User.GetUserId());
 }

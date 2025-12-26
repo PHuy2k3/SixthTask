@@ -5,24 +5,39 @@ using Microsoft.AspNetCore.SignalR;
 namespace Chat.Api.Hubs;
 
 [Authorize]
-public class ChatHub(IChatService biz) : Hub
+public class ChatHub : Hub
 {
-    // Client gọi: joinConversation(conversationId)
+    // client gọi để join group theo conversationId
     public Task JoinConversation(string conversationId)
         => Groups.AddToGroupAsync(Context.ConnectionId, conversationId);
 
     public Task LeaveConversation(string conversationId)
         => Groups.RemoveFromGroupAsync(Context.ConnectionId, conversationId);
 
-    // (Optional) Client dùng hub để send luôn
-    public async Task SendToConversation(string conversationId, string content)
-    {
-        var meId = Context.User!.GetUserId();
-        var meName = Context.User!.GetUserName();
+    // ========== WebRTC Signaling ==========
+    public Task SendOffer(string conversationId, object offer)
+        => Clients.Group(conversationId).SendAsync("call:offer", new
+        {
+            fromUserId = Context.User!.GetUserId(),
+            fromUserName = Context.User!.GetUserName(),
+            offer
+        });
 
-        var msg = await biz.SendMessageAsync(meId, meName, Guid.Parse(conversationId), content);
+    public Task SendAnswer(string conversationId, object answer)
+        => Clients.Group(conversationId).SendAsync("call:answer", new
+        {
+            fromUserId = Context.User!.GetUserId(),
+            fromUserName = Context.User!.GetUserName(),
+            answer
+        });
 
-        // push cho tất cả trong group conversation
-        await Clients.Group(conversationId).SendAsync("message:new", msg);
-    }
+    public Task SendIceCandidate(string conversationId, object candidate)
+        => Clients.Group(conversationId).SendAsync("call:ice", new
+        {
+            fromUserId = Context.User!.GetUserId(),
+            candidate
+        });
+
+    public override Task OnConnectedAsync()
+        => base.OnConnectedAsync();
 }

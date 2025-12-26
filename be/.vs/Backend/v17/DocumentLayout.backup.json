@@ -3,23 +3,24 @@
   "WorkspaceRootPath": "D:\\CMC_Task\\sixth-task\\be\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{B94B614E-2701-45A2-BC65-206E4470A8EF}|services\\Posts\\Posts.Biz\\Posts.Biz.csproj|d:\\cmc_task\\sixth-task\\be\\services\\posts\\posts.biz\\services\\postservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B94B614E-2701-45A2-BC65-206E4470A8EF}|services\\Posts\\Posts.Biz\\Posts.Biz.csproj|solutionrelative:services\\posts\\posts.biz\\services\\postservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F727819B-F288-4BAC-BAB5-96650A268166}|services\\Posts\\Posts.Data\\Posts.Data.csproj|d:\\cmc_task\\sixth-task\\be\\services\\posts\\posts.data\\repositories\\postmediarepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F727819B-F288-4BAC-BAB5-96650A268166}|services\\Posts\\Posts.Data\\Posts.Data.csproj|solutionrelative:services\\posts\\posts.data\\repositories\\postmediarepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F727819B-F288-4BAC-BAB5-96650A268166}|services\\Posts\\Posts.Data\\Posts.Data.csproj|d:\\cmc_task\\sixth-task\\be\\services\\posts\\posts.data\\interfaces\\ipostmediarepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F727819B-F288-4BAC-BAB5-96650A268166}|services\\Posts\\Posts.Data\\Posts.Data.csproj|solutionrelative:services\\posts\\posts.data\\interfaces\\ipostmediarepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{C5F8E43A-6491-48C2-8838-7093D88CFA86}|services\\Posts\\Posts.Api\\Posts.Api.csproj|d:\\cmc_task\\sixth-task\\be\\services\\posts\\posts.api\\controllers\\postscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C5F8E43A-6491-48C2-8838-7093D88CFA86}|services\\Posts\\Posts.Api\\Posts.Api.csproj|solutionrelative:services\\posts\\posts.api\\controllers\\postscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{72AEB5A8-8000-4120-A7D4-5AEB9D36685C}|services\\Posts\\Posts.Biz.Model\\Posts.Biz.Model.csproj|d:\\cmc_task\\sixth-task\\be\\services\\posts\\posts.biz.model\\postdtos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{72AEB5A8-8000-4120-A7D4-5AEB9D36685C}|services\\Posts\\Posts.Biz.Model\\Posts.Biz.Model.csproj|solutionrelative:services\\posts\\posts.biz.model\\postdtos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B94B614E-2701-45A2-BC65-206E4470A8EF}|services\\Posts\\Posts.Biz\\Posts.Biz.csproj|d:\\cmc_task\\sixth-task\\be\\services\\posts\\posts.biz\\interfaces\\ipostservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B94B614E-2701-45A2-BC65-206E4470A8EF}|services\\Posts\\Posts.Biz\\Posts.Biz.csproj|solutionrelative:services\\posts\\posts.biz\\interfaces\\ipostservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F727819B-F288-4BAC-BAB5-96650A268166}|services\\Posts\\Posts.Data\\Posts.Data.csproj|d:\\cmc_task\\sixth-task\\be\\services\\posts\\posts.data\\repositories\\likerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F727819B-F288-4BAC-BAB5-96650A268166}|services\\Posts\\Posts.Data\\Posts.Data.csproj|solutionrelative:services\\posts\\posts.data\\repositories\\likerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F727819B-F288-4BAC-BAB5-96650A268166}|services\\Posts\\Posts.Data\\Posts.Data.csproj|d:\\cmc_task\\sixth-task\\be\\services\\posts\\posts.data\\interfaces\\ilikerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F727819B-F288-4BAC-BAB5-96650A268166}|services\\Posts\\Posts.Data\\Posts.Data.csproj|solutionrelative:services\\posts\\posts.data\\interfaces\\ilikerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{F727819B-F288-4BAC-BAB5-96650A268166}|services\\Posts\\Posts.Data\\Posts.Data.csproj|d:\\cmc_task\\sixth-task\\be\\services\\posts\\posts.data\\repositories\\commentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -30,8 +31,19 @@
       "RelativeMoniker": "D:0:0:{F727819B-F288-4BAC-BAB5-96650A268166}|services\\Posts\\Posts.Data\\Posts.Data.csproj|solutionrelative:services\\posts\\posts.data\\interfaces\\icommentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F727819B-F288-4BAC-BAB5-96650A268166}|services\\Posts\\Posts.Data\\Posts.Data.csproj|d:\\cmc_task\\sixth-task\\be\\services\\posts\\posts.data\\interfaces\\ilikerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F727819B-F288-4BAC-BAB5-96650A268166}|services\\Posts\\Posts.Data\\Posts.Data.csproj|solutionrelative:services\\posts\\posts.data\\interfaces\\ilikerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{F727819B-F288-4BAC-BAB5-96650A268166}|services\\Posts\\Posts.Data\\Posts.Data.csproj|d:\\cmc_task\\sixth-task\\be\\services\\posts\\posts.data\\interfaces\\ipostmediarepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F727819B-F288-4BAC-BAB5-96650A268166}|services\\Posts\\Posts.Data\\Posts.Data.csproj|solutionrelative:services\\posts\\posts.data\\interfaces\\ipostmediarepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B94B614E-2701-45A2-BC65-206E4470A8EF}|services\\Posts\\Posts.Biz\\Posts.Biz.csproj|d:\\cmc_task\\sixth-task\\be\\services\\posts\\posts.biz\\services\\postservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B94B614E-2701-45A2-BC65-206E4470A8EF}|services\\Posts\\Posts.Biz\\Posts.Biz.csproj|solutionrelative:services\\posts\\posts.biz\\services\\postservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F727819B-F288-4BAC-BAB5-96650A268166}|services\\Posts\\Posts.Data\\Posts.Data.csproj|d:\\cmc_task\\sixth-task\\be\\services\\posts\\posts.data\\repositories\\postmediarepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F727819B-F288-4BAC-BAB5-96650A268166}|services\\Posts\\Posts.Data\\Posts.Data.csproj|solutionrelative:services\\posts\\posts.data\\repositories\\postmediarepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{F727819B-F288-4BAC-BAB5-96650A268166}|services\\Posts\\Posts.Data\\Posts.Data.csproj|d:\\cmc_task\\sixth-task\\be\\services\\posts\\posts.data\\interfaces\\ipostrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -46,14 +58,6 @@
       "RelativeMoniker": "D:0:0:{F727819B-F288-4BAC-BAB5-96650A268166}|services\\Posts\\Posts.Data\\Posts.Data.csproj|solutionrelative:services\\posts\\posts.data\\repositories\\postrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B94B614E-2701-45A2-BC65-206E4470A8EF}|services\\Posts\\Posts.Biz\\Posts.Biz.csproj|d:\\cmc_task\\sixth-task\\be\\services\\posts\\posts.biz\\interfaces\\ipostservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B94B614E-2701-45A2-BC65-206E4470A8EF}|services\\Posts\\Posts.Biz\\Posts.Biz.csproj|solutionrelative:services\\posts\\posts.biz\\interfaces\\ipostservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{72AEB5A8-8000-4120-A7D4-5AEB9D36685C}|services\\Posts\\Posts.Biz.Model\\Posts.Biz.Model.csproj|d:\\cmc_task\\sixth-task\\be\\services\\posts\\posts.biz.model\\postdtos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{72AEB5A8-8000-4120-A7D4-5AEB9D36685C}|services\\Posts\\Posts.Biz.Model\\Posts.Biz.Model.csproj|solutionrelative:services\\posts\\posts.biz.model\\postdtos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{D91DFADA-49D2-46D0-90B4-D01D48543287}|services\\Chat\\Chat.Biz.Model\\Chat.Biz.Model.csproj|d:\\cmc_task\\sixth-task\\be\\services\\chat\\chat.biz.model\\chatdtos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D91DFADA-49D2-46D0-90B4-D01D48543287}|services\\Chat\\Chat.Biz.Model\\Chat.Biz.Model.csproj|solutionrelative:services\\chat\\chat.biz.model\\chatdtos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
@@ -65,7 +69,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 9,
           "Children": [
             {
               "$type": "Bookmark",
@@ -77,40 +81,27 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Microsoft.Common.CurrentVersion.targets",
-              "DocumentMoniker": "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets",
-              "ToolTip": "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets",
-              "ViewState": "AgIAAMsTAAAAAAAAAAASwOQTAAAEAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003801|",
-              "WhenOpened": "2025-12-24T09:56:43.595Z",
-              "EditorCaption": ""
+              "DocumentIndex": 3,
+              "Title": "LikeRepository.cs",
+              "DocumentMoniker": "D:\\CMC_Task\\sixth-task\\be\\services\\Posts\\Posts.Data\\Repositories\\LikeRepository.cs",
+              "RelativeDocumentMoniker": "services\\Posts\\Posts.Data\\Repositories\\LikeRepository.cs",
+              "ToolTip": "D:\\CMC_Task\\sixth-task\\be\\services\\Posts\\Posts.Data\\Repositories\\LikeRepository.cs",
+              "RelativeToolTip": "services\\Posts\\Posts.Data\\Repositories\\LikeRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-25T02:02:41.663Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 8,
               "Title": "PostService.cs",
               "DocumentMoniker": "D:\\CMC_Task\\sixth-task\\be\\services\\Posts\\Posts.Biz\\Services\\PostService.cs",
               "RelativeDocumentMoniker": "services\\Posts\\Posts.Biz\\Services\\PostService.cs",
               "ToolTip": "D:\\CMC_Task\\sixth-task\\be\\services\\Posts\\Posts.Biz\\Services\\PostService.cs",
               "RelativeToolTip": "services\\Posts\\Posts.Biz\\Services\\PostService.cs",
-              "ViewState": "AgIAALUAAAAAAAAAAAAAANYAAAAFAAAAAAAAAA==",
+              "ViewState": "AgIAALUAAAAAAAAAAAAhwMsAAAApAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-24T09:45:02.585Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "PostMediaRepository.cs",
-              "DocumentMoniker": "D:\\CMC_Task\\sixth-task\\be\\services\\Posts\\Posts.Data\\Repositories\\PostMediaRepository.cs",
-              "RelativeDocumentMoniker": "services\\Posts\\Posts.Data\\Repositories\\PostMediaRepository.cs",
-              "ToolTip": "D:\\CMC_Task\\sixth-task\\be\\services\\Posts\\Posts.Data\\Repositories\\PostMediaRepository.cs",
-              "RelativeToolTip": "services\\Posts\\Posts.Data\\Repositories\\PostMediaRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-24T09:44:25.406Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-24T09:45:02.585Z"
             },
             {
               "$type": "Document",
@@ -122,12 +113,11 @@
               "RelativeToolTip": "services\\Posts\\Posts.Data\\Repositories\\CommentRepository.cs",
               "ViewState": "AgIAABAAAAAAAAAAAAAQwDMAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-24T09:44:20.336Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-24T09:44:20.336Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 12,
               "Title": "IReactionRepository.cs",
               "DocumentMoniker": "D:\\CMC_Task\\sixth-task\\be\\services\\Posts\\Posts.Data\\Interfaces\\IReactionRepository.cs",
               "RelativeDocumentMoniker": "services\\Posts\\Posts.Data\\Interfaces\\IReactionRepository.cs",
@@ -135,25 +125,23 @@
               "RelativeToolTip": "services\\Posts\\Posts.Data\\Interfaces\\IReactionRepository.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAABDAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-24T09:43:27.236Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-24T09:43:27.236Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 4,
               "Title": "ILikeRepository.cs",
               "DocumentMoniker": "D:\\CMC_Task\\sixth-task\\be\\services\\Posts\\Posts.Data\\Interfaces\\ILikeRepository.cs",
               "RelativeDocumentMoniker": "services\\Posts\\Posts.Data\\Interfaces\\ILikeRepository.cs",
               "ToolTip": "D:\\CMC_Task\\sixth-task\\be\\services\\Posts\\Posts.Data\\Interfaces\\ILikeRepository.cs",
               "RelativeToolTip": "services\\Posts\\Posts.Data\\Interfaces\\ILikeRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAsAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-24T09:43:16.477Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-24T09:43:16.477Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 7,
               "Title": "IPostMediaRepository.cs",
               "DocumentMoniker": "D:\\CMC_Task\\sixth-task\\be\\services\\Posts\\Posts.Data\\Interfaces\\IPostMediaRepository.cs",
               "RelativeDocumentMoniker": "services\\Posts\\Posts.Data\\Interfaces\\IPostMediaRepository.cs",
@@ -161,8 +149,7 @@
               "RelativeToolTip": "services\\Posts\\Posts.Data\\Interfaces\\IPostMediaRepository.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-24T09:42:56.968Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-24T09:42:56.968Z"
             },
             {
               "$type": "Document",
@@ -172,14 +159,72 @@
               "RelativeDocumentMoniker": "services\\Posts\\Posts.Data\\Interfaces\\ICommentRepository.cs",
               "ToolTip": "D:\\CMC_Task\\sixth-task\\be\\services\\Posts\\Posts.Data\\Interfaces\\ICommentRepository.cs",
               "RelativeToolTip": "services\\Posts\\Posts.Data\\Interfaces\\ICommentRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAApAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-24T09:42:23.891Z",
+              "WhenOpened": "2025-12-24T09:42:23.891Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "PostsController.cs",
+              "DocumentMoniker": "D:\\CMC_Task\\sixth-task\\be\\services\\Posts\\Posts.Api\\Controllers\\PostsController.cs",
+              "RelativeDocumentMoniker": "services\\Posts\\Posts.Api\\Controllers\\PostsController.cs",
+              "ToolTip": "D:\\CMC_Task\\sixth-task\\be\\services\\Posts\\Posts.Api\\Controllers\\PostsController.cs",
+              "RelativeToolTip": "services\\Posts\\Posts.Api\\Controllers\\PostsController.cs",
+              "ViewState": "AgIAAC8AAAAAAAAAAAAqwCIAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-24T08:16:04.645Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 1,
+              "Title": "PostDtos.cs",
+              "DocumentMoniker": "D:\\CMC_Task\\sixth-task\\be\\services\\Posts\\Posts.Biz.Model\\PostDtos.cs",
+              "RelativeDocumentMoniker": "services\\Posts\\Posts.Biz.Model\\PostDtos.cs",
+              "ToolTip": "D:\\CMC_Task\\sixth-task\\be\\services\\Posts\\Posts.Biz.Model\\PostDtos.cs",
+              "RelativeToolTip": "services\\Posts\\Posts.Biz.Model\\PostDtos.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB8AAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-24T09:40:41.109Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "IPostService.cs",
+              "DocumentMoniker": "D:\\CMC_Task\\sixth-task\\be\\services\\Posts\\Posts.Biz\\Interfaces\\IPostService.cs",
+              "RelativeDocumentMoniker": "services\\Posts\\Posts.Biz\\Interfaces\\IPostService.cs",
+              "ToolTip": "D:\\CMC_Task\\sixth-task\\be\\services\\Posts\\Posts.Biz\\Interfaces\\IPostService.cs",
+              "RelativeToolTip": "services\\Posts\\Posts.Biz\\Interfaces\\IPostService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-24T09:41:20.569Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "PostMediaRepository.cs",
+              "DocumentMoniker": "D:\\CMC_Task\\sixth-task\\be\\services\\Posts\\Posts.Data\\Repositories\\PostMediaRepository.cs",
+              "RelativeDocumentMoniker": "services\\Posts\\Posts.Data\\Repositories\\PostMediaRepository.cs",
+              "ToolTip": "D:\\CMC_Task\\sixth-task\\be\\services\\Posts\\Posts.Data\\Repositories\\PostMediaRepository.cs",
+              "RelativeToolTip": "services\\Posts\\Posts.Data\\Repositories\\PostMediaRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-24T09:44:25.406Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Microsoft.Common.CurrentVersion.targets",
+              "DocumentMoniker": "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets",
+              "ToolTip": "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets",
+              "ViewState": "AgIAAMsTAAAAAAAAAAASwOQTAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003801|",
+              "WhenOpened": "2025-12-24T09:56:43.595Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
               "Title": "IPostRepository.cs",
               "DocumentMoniker": "D:\\CMC_Task\\sixth-task\\be\\services\\Posts\\Posts.Data\\Interfaces\\IPostRepository.cs",
               "RelativeDocumentMoniker": "services\\Posts\\Posts.Data\\Interfaces\\IPostRepository.cs",
@@ -187,25 +232,11 @@
               "RelativeToolTip": "services\\Posts\\Posts.Data\\Interfaces\\IPostRepository.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAgAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-24T09:42:05.889Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-24T09:42:05.889Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "PostsController.cs",
-              "DocumentMoniker": "D:\\CMC_Task\\sixth-task\\be\\services\\Posts\\Posts.Api\\Controllers\\PostsController.cs",
-              "RelativeDocumentMoniker": "services\\Posts\\Posts.Api\\Controllers\\PostsController.cs",
-              "ToolTip": "D:\\CMC_Task\\sixth-task\\be\\services\\Posts\\Posts.Api\\Controllers\\PostsController.cs",
-              "RelativeToolTip": "services\\Posts\\Posts.Api\\Controllers\\PostsController.cs",
-              "ViewState": "AgIAAB0AAAAAAAAAAAAcwEIAAAAMAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-24T08:16:04.645Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 13,
               "Title": "PostRepository.cs",
               "DocumentMoniker": "D:\\CMC_Task\\sixth-task\\be\\services\\Posts\\Posts.Data\\Repositories\\PostRepository.cs",
               "RelativeDocumentMoniker": "services\\Posts\\Posts.Data\\Repositories\\PostRepository.cs",
@@ -213,38 +244,11 @@
               "RelativeToolTip": "services\\Posts\\Posts.Data\\Repositories\\PostRepository.cs",
               "ViewState": "AgIAABAAAAAAAAAAAAAQwC8AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-24T09:44:03.296Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-24T09:44:03.296Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "IPostService.cs",
-              "DocumentMoniker": "D:\\CMC_Task\\sixth-task\\be\\services\\Posts\\Posts.Biz\\Interfaces\\IPostService.cs",
-              "RelativeDocumentMoniker": "services\\Posts\\Posts.Biz\\Interfaces\\IPostService.cs",
-              "ToolTip": "D:\\CMC_Task\\sixth-task\\be\\services\\Posts\\Posts.Biz\\Interfaces\\IPostService.cs",
-              "RelativeToolTip": "services\\Posts\\Posts.Biz\\Interfaces\\IPostService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAABBAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-24T09:41:20.569Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "PostDtos.cs",
-              "DocumentMoniker": "D:\\CMC_Task\\sixth-task\\be\\services\\Posts\\Posts.Biz.Model\\PostDtos.cs",
-              "RelativeDocumentMoniker": "services\\Posts\\Posts.Biz.Model\\PostDtos.cs",
-              "ToolTip": "D:\\CMC_Task\\sixth-task\\be\\services\\Posts\\Posts.Biz.Model\\PostDtos.cs",
-              "RelativeToolTip": "services\\Posts\\Posts.Biz.Model\\PostDtos.cs",
-              "ViewState": "AgIAAA4AAAAAAAAAAAAAAC8AAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-24T09:40:41.109Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 14,
               "Title": "ChatDtos.cs",
               "DocumentMoniker": "D:\\CMC_Task\\sixth-task\\be\\services\\Chat\\Chat.Biz.Model\\ChatDtos.cs",
               "RelativeDocumentMoniker": "services\\Chat\\Chat.Biz.Model\\ChatDtos.cs",
@@ -252,8 +256,7 @@
               "RelativeToolTip": "services\\Chat\\Chat.Biz.Model\\ChatDtos.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAACEAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-24T08:52:55.831Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-24T08:52:55.831Z"
             }
           ]
         }

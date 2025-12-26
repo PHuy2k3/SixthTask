@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Authorization;
+﻿using System.IO;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Posts.Api;
 using Posts.Biz.Interfaces;
@@ -31,13 +32,11 @@ public class PostsController : ControllerBase
     [HttpPut("{postId:guid}/reaction")]
     public Task<PostDto> SetReaction(Guid postId, [FromBody] SetReactionReq req)
         => _biz.SetReactionAsync(postId, req.Type, User.GetUserId(), User.GetUserName());
-
     // ✅ COMMENT
     [Authorize]
     [HttpPost("{postId:guid}/comments")]
     public Task<PostCommentDto> AddComment(Guid postId, [FromBody] AddCommentReq req)
         => _biz.AddCommentAsync(postId, req, User.GetUserId(), User.GetUserName());
-
     [Authorize]
     [HttpGet("{postId:guid}/comments")]
     public Task<List<PostCommentDto>> GetComments(Guid postId)
@@ -48,8 +47,27 @@ public class PostsController : ControllerBase
     => _biz.GetByUserAsync(User.GetUserId(), userId, size);
     [Authorize]
     [HttpPut("{postId:guid}")]
-    public Task<PostDto> UpdatePost(Guid postId, [FromBody] UpdatePostReq req)
-        => _biz.UpdatePostAsync(postId, req, User.GetUserId());
+    public async Task<PostDto> UpdatePost(Guid postId)
+    {
+        UpdatePostReq req;
+        var contentType = Request.ContentType ?? "";
+
+        if (contentType.Contains("application/json", StringComparison.OrdinalIgnoreCase)
+            || contentType.Contains("+json", StringComparison.OrdinalIgnoreCase))
+        {
+            req = await System.Text.Json.JsonSerializer
+                .DeserializeAsync<UpdatePostReq>(Request.Body)
+                ?? new UpdatePostReq();
+        }
+        else
+        {
+            using var reader = new StreamReader(Request.Body);
+            var content = await reader.ReadToEndAsync();
+            req = new UpdatePostReq { Content = content ?? "", Privacy = "" };
+        }
+
+        return await _biz.UpdatePostAsync(postId, req, User.GetUserId());
+    }
 
     [Authorize]
     [HttpDelete("{postId:guid}")]

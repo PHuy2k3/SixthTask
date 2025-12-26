@@ -3,7 +3,7 @@ using Identity.Data.Model.Entities;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
-using Shared.Kernel;
+using System.Net.Http.Json;
 using Shared.Kernel.Claims;
 
 [ApiController]
@@ -11,7 +11,13 @@ using Shared.Kernel.Claims;
 public class FriendsController : ControllerBase
 {
     private readonly IdentityDbContext _db;
-    public FriendsController(IdentityDbContext db) => _db = db;
+    private readonly HttpClient _notificationsClient;
+
+    public FriendsController(IdentityDbContext db, IHttpClientFactory httpClientFactory)
+    {
+        _db = db;
+        _notificationsClient = httpClientFactory.CreateClient("Notifications");
+    }
 
     // ===================== STATUS =====================
     [Authorize]
@@ -61,6 +67,7 @@ public class FriendsController : ControllerBase
                 CreatedAt = DateTime.UtcNow
             });
             await _db.SaveChangesAsync();
+            await SendFriendRequestNotificationAsync(me, userId);
         }
 
         return Ok(new { ok = true });
@@ -121,4 +128,32 @@ public class FriendsController : ControllerBase
 
         return Ok(result);
     }
+    private async Task SendFriendRequestNotificationAsync(Guid actorUserId, Guid recipientUserId)
+    {
+        var actorUserName = await _db.Users
+            .AsNoTracking()
+            .Where(u => u.Id == actorUserId)
+            .Select(u => u.UserName)
+            .FirstOrDefaultAsync() ?? "";
+
+        var req = new CreateNotificationReq(
+            RecipientUserId: recipientUserId,
+            ActorUserId: actorUserId,
+            ActorUserName: actorUserName,
+            Type: "friend_request",
+            PostId: Guid.Empty,
+            Content: "Bạn nhận được lời mời kết bạn."
+        );
+
+        await _notificationsClient.PostAsJsonAsync("api/notifications", req);
+    }
 }
+
+public sealed record CreateNotificationReq(
+    Guid RecipientUserId,
+    Guid ActorUserId,
+    string ActorUserName,
+    string Type,
+    Guid PostId,
+    string? Content
+);

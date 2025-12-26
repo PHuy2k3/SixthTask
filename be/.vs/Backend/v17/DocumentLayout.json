@@ -3,6 +3,22 @@
   "WorkspaceRootPath": "D:\\CMC_Task\\sixth-task\\be\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{42157067-90BC-4DC9-ABF8-7BF6242B556A}|services\\Identity\\Identity.Api\\Identity.Api.csproj|d:\\cmc_task\\sixth-task\\be\\services\\identity\\identity.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{42157067-90BC-4DC9-ABF8-7BF6242B556A}|services\\Identity\\Identity.Api\\Identity.Api.csproj|solutionrelative:services\\identity\\identity.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{42157067-90BC-4DC9-ABF8-7BF6242B556A}|services\\Identity\\Identity.Api\\Identity.Api.csproj|d:\\cmc_task\\sixth-task\\be\\services\\identity\\identity.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{42157067-90BC-4DC9-ABF8-7BF6242B556A}|services\\Identity\\Identity.Api\\Identity.Api.csproj|solutionrelative:services\\identity\\identity.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{42157067-90BC-4DC9-ABF8-7BF6242B556A}|services\\Identity\\Identity.Api\\Identity.Api.csproj|d:\\cmc_task\\sixth-task\\be\\services\\identity\\identity.api\\controllers\\friendscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{42157067-90BC-4DC9-ABF8-7BF6242B556A}|services\\Identity\\Identity.Api\\Identity.Api.csproj|solutionrelative:services\\identity\\identity.api\\controllers\\friendscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0FE20C40-58E1-44BA-9A62-3792B004108F}|services\\Chat\\Chat.Api\\Chat.Api.csproj|d:\\cmc_task\\sixth-task\\be\\services\\chat\\chat.api\\controllers\\chatcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0FE20C40-58E1-44BA-9A62-3792B004108F}|services\\Chat\\Chat.Api\\Chat.Api.csproj|solutionrelative:services\\chat\\chat.api\\controllers\\chatcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{0FE20C40-58E1-44BA-9A62-3792B004108F}|services\\Chat\\Chat.Api\\Chat.Api.csproj|d:\\cmc_task\\sixth-task\\be\\services\\chat\\chat.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0FE20C40-58E1-44BA-9A62-3792B004108F}|services\\Chat\\Chat.Api\\Chat.Api.csproj|solutionrelative:services\\chat\\chat.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -94,6 +110,58 @@
             {
               "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\CMC_Task\\sixth-task\\be\\services\\Identity\\Identity.Api\\appsettings.json",
+              "RelativeDocumentMoniker": "services\\Identity\\Identity.Api\\appsettings.json",
+              "ToolTip": "D:\\CMC_Task\\sixth-task\\be\\services\\Identity\\Identity.Api\\appsettings.json",
+              "RelativeToolTip": "services\\Identity\\Identity.Api\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-12-26T04:26:07.539Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\CMC_Task\\sixth-task\\be\\services\\Identity\\Identity.Api\\Program.cs",
+              "RelativeDocumentMoniker": "services\\Identity\\Identity.Api\\Program.cs",
+              "ToolTip": "D:\\CMC_Task\\sixth-task\\be\\services\\Identity\\Identity.Api\\Program.cs",
+              "RelativeToolTip": "services\\Identity\\Identity.Api\\Program.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAACcAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-26T04:25:46.027Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "FriendsController.cs",
+              "DocumentMoniker": "D:\\CMC_Task\\sixth-task\\be\\services\\Identity\\Identity.Api\\Controllers\\FriendsController.cs",
+              "RelativeDocumentMoniker": "services\\Identity\\Identity.Api\\Controllers\\FriendsController.cs",
+              "ToolTip": "D:\\CMC_Task\\sixth-task\\be\\services\\Identity\\Identity.Api\\Controllers\\FriendsController.cs",
+              "RelativeToolTip": "services\\Identity\\Identity.Api\\Controllers\\FriendsController.cs",
+              "ViewState": "AgIAAIEAAAAAAAAAAAAAAI8AAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-26T04:24:14.695Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ChatController.cs",
+              "DocumentMoniker": "D:\\CMC_Task\\sixth-task\\be\\services\\Chat\\Chat.Api\\Controllers\\ChatController.cs",
+              "RelativeDocumentMoniker": "services\\Chat\\Chat.Api\\Controllers\\ChatController.cs",
+              "ToolTip": "D:\\CMC_Task\\sixth-task\\be\\services\\Chat\\Chat.Api\\Controllers\\ChatController.cs",
+              "RelativeToolTip": "services\\Chat\\Chat.Api\\Controllers\\ChatController.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-26T03:54:38.268Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
               "Title": "CallHub.cs",
               "DocumentMoniker": "D:\\CMC_Task\\sixth-task\\be\\services\\Chat\\Chat.Api\\Hubs\\CallHub.cs",
               "RelativeDocumentMoniker": "services\\Chat\\Chat.Api\\Hubs\\CallHub.cs",
@@ -101,25 +169,24 @@
               "RelativeToolTip": "services\\Chat\\Chat.Api\\Hubs\\CallHub.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-26T02:54:17.057Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-26T02:54:17.057Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 4,
               "Title": "Program.cs",
               "DocumentMoniker": "D:\\CMC_Task\\sixth-task\\be\\services\\Chat\\Chat.Api\\Program.cs",
               "RelativeDocumentMoniker": "services\\Chat\\Chat.Api\\Program.cs",
               "ToolTip": "D:\\CMC_Task\\sixth-task\\be\\services\\Chat\\Chat.Api\\Program.cs",
               "RelativeToolTip": "services\\Chat\\Chat.Api\\Program.cs",
-              "ViewState": "AgIAAEIAAAAAAAAAAAAAAFcAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAFcAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-12-26T02:48:37.685Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 6,
               "Title": "ChatHub.cs",
               "DocumentMoniker": "D:\\CMC_Task\\sixth-task\\be\\services\\Chat\\Chat.Api\\Hubs\\ChatHub.cs",
               "RelativeDocumentMoniker": "services\\Chat\\Chat.Api\\Hubs\\ChatHub.cs",
@@ -127,12 +194,11 @@
               "RelativeToolTip": "services\\Chat\\Chat.Api\\Hubs\\ChatHub.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAzAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-26T02:47:31.171Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-26T02:47:31.171Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 10,
               "Title": "LikeRepository.cs",
               "DocumentMoniker": "D:\\CMC_Task\\sixth-task\\be\\services\\Posts\\Posts.Data\\Repositories\\LikeRepository.cs",
               "RelativeDocumentMoniker": "services\\Posts\\Posts.Data\\Repositories\\LikeRepository.cs",
@@ -144,7 +210,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 15,
               "Title": "PostService.cs",
               "DocumentMoniker": "D:\\CMC_Task\\sixth-task\\be\\services\\Posts\\Posts.Biz\\Services\\PostService.cs",
               "RelativeDocumentMoniker": "services\\Posts\\Posts.Biz\\Services\\PostService.cs",
@@ -156,7 +222,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 12,
               "Title": "CommentRepository.cs",
               "DocumentMoniker": "D:\\CMC_Task\\sixth-task\\be\\services\\Posts\\Posts.Data\\Repositories\\CommentRepository.cs",
               "RelativeDocumentMoniker": "services\\Posts\\Posts.Data\\Repositories\\CommentRepository.cs",
@@ -168,7 +234,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 19,
               "Title": "IReactionRepository.cs",
               "DocumentMoniker": "D:\\CMC_Task\\sixth-task\\be\\services\\Posts\\Posts.Data\\Interfaces\\IReactionRepository.cs",
               "RelativeDocumentMoniker": "services\\Posts\\Posts.Data\\Interfaces\\IReactionRepository.cs",
@@ -180,7 +246,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 11,
               "Title": "ILikeRepository.cs",
               "DocumentMoniker": "D:\\CMC_Task\\sixth-task\\be\\services\\Posts\\Posts.Data\\Interfaces\\ILikeRepository.cs",
               "RelativeDocumentMoniker": "services\\Posts\\Posts.Data\\Interfaces\\ILikeRepository.cs",
@@ -192,7 +258,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 14,
               "Title": "IPostMediaRepository.cs",
               "DocumentMoniker": "D:\\CMC_Task\\sixth-task\\be\\services\\Posts\\Posts.Data\\Interfaces\\IPostMediaRepository.cs",
               "RelativeDocumentMoniker": "services\\Posts\\Posts.Data\\Interfaces\\IPostMediaRepository.cs",
@@ -204,7 +270,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 13,
               "Title": "ICommentRepository.cs",
               "DocumentMoniker": "D:\\CMC_Task\\sixth-task\\be\\services\\Posts\\Posts.Data\\Interfaces\\ICommentRepository.cs",
               "RelativeDocumentMoniker": "services\\Posts\\Posts.Data\\Interfaces\\ICommentRepository.cs",
@@ -216,7 +282,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 7,
               "Title": "PostsController.cs",
               "DocumentMoniker": "D:\\CMC_Task\\sixth-task\\be\\services\\Posts\\Posts.Api\\Controllers\\PostsController.cs",
               "RelativeDocumentMoniker": "services\\Posts\\Posts.Api\\Controllers\\PostsController.cs",
@@ -224,12 +290,11 @@
               "RelativeToolTip": "services\\Posts\\Posts.Api\\Controllers\\PostsController.cs",
               "ViewState": "AgIAADcAAAAAAAAAAAAAAD4AAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-24T08:16:04.645Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-24T08:16:04.645Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 8,
               "Title": "PostDtos.cs",
               "DocumentMoniker": "D:\\CMC_Task\\sixth-task\\be\\services\\Posts\\Posts.Biz.Model\\PostDtos.cs",
               "RelativeDocumentMoniker": "services\\Posts\\Posts.Biz.Model\\PostDtos.cs",
@@ -241,7 +306,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 9,
               "Title": "IPostService.cs",
               "DocumentMoniker": "D:\\CMC_Task\\sixth-task\\be\\services\\Posts\\Posts.Biz\\Interfaces\\IPostService.cs",
               "RelativeDocumentMoniker": "services\\Posts\\Posts.Biz\\Interfaces\\IPostService.cs",
@@ -253,7 +318,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 17,
               "Title": "PostMediaRepository.cs",
               "DocumentMoniker": "D:\\CMC_Task\\sixth-task\\be\\services\\Posts\\Posts.Data\\Repositories\\PostMediaRepository.cs",
               "RelativeDocumentMoniker": "services\\Posts\\Posts.Data\\Repositories\\PostMediaRepository.cs",
@@ -265,7 +330,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 16,
               "Title": "Microsoft.Common.CurrentVersion.targets",
               "DocumentMoniker": "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets",
               "ToolTip": "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets",
@@ -275,7 +340,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 18,
               "Title": "IPostRepository.cs",
               "DocumentMoniker": "D:\\CMC_Task\\sixth-task\\be\\services\\Posts\\Posts.Data\\Interfaces\\IPostRepository.cs",
               "RelativeDocumentMoniker": "services\\Posts\\Posts.Data\\Interfaces\\IPostRepository.cs",
@@ -287,7 +352,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 20,
               "Title": "PostRepository.cs",
               "DocumentMoniker": "D:\\CMC_Task\\sixth-task\\be\\services\\Posts\\Posts.Data\\Repositories\\PostRepository.cs",
               "RelativeDocumentMoniker": "services\\Posts\\Posts.Data\\Repositories\\PostRepository.cs",
@@ -299,7 +364,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 21,
               "Title": "ChatDtos.cs",
               "DocumentMoniker": "D:\\CMC_Task\\sixth-task\\be\\services\\Chat\\Chat.Biz.Model\\ChatDtos.cs",
               "RelativeDocumentMoniker": "services\\Chat\\Chat.Biz.Model\\ChatDtos.cs",

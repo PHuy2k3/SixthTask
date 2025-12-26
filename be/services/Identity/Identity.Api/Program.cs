@@ -33,7 +33,12 @@ builder.Services.AddSingleton<IJwtOptions>(jwtOpt);
 // Data + Biz
 builder.Services.AddIdentityData(builder.Configuration);
 builder.Services.AddIdentityBiz();
-
+builder.Services.AddHttpClient("Notifications", client =>
+{
+    var baseUrl = builder.Configuration["Notifications:BaseUrl"] ?? "";
+    if (!string.IsNullOrWhiteSpace(baseUrl))
+        client.BaseAddress = new Uri(baseUrl);
+});
 // JWT Auth
 builder.Services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme)
     .AddJwtBearer(opt =>

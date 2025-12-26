@@ -1,0 +1,192 @@
+/* FriendsPage.css - Modern Friends List Styling */
+:root {
+  --primary-gradient: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  --primary-gradient-horizontal: linear-gradient(90deg, #667eea, #764ba2);
+  --card-shadow: 0 4px 6px -1px rgba(0, 0,0, 0.1), 0 2px 4px -1px rgba(0, 0,0, 0.06);
+  --card-shadow-hover: 0 20px 25px -5px rgba(0, 0,0, 0.15), 0 10px 10px -5px rgba(0, 0,0, 0.05);
+  --header-shadow: 0 20px 25px -5px rgba(0, 0,0, 0.1), 0 10px 10px -5px rgba(0, 0,0, 0.04);
+  --avatar-shadow: 0 4px 12px rgba(102, 126, 234, 0.3);
+  --avatar-shadow-hover: 0 8px 20px rgba(102, 126, 234, 0.4);
+  --text-primary: #1e293b;
+  --text-secondary: #6b7280;
+  --border-color: rgba(0, 0,0, 0.05);
+  --border-hover: rgba(102, 126, 234, 0.2);
+  --bg-muted: linear-gradient(135deg, #f8fafc 0%, #f1f5f9 100%);
+}
+
+.friends-list {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 0 1rem;
+}
+
+.friends-header {
+  background: var(--primary-gradient);
+  color: white;
+  padding: 1.5rem;
+  border-radius: 20px;
+  margin-bottom: 1.5rem;
+  box-shadow: var(--header-shadow);
+  text-align: center;
+}
+
+.friends-header h1 {
+  font-weight: 900;
+  font-size: clamp(1.5rem, 4vw, 1.75rem);
+  line-height: 1.2;
+  margin: 0 0 0.25rem 0;
+}
+
+.friends-count {
+  font-size: 0.875rem;
+  opacity: 0.9;
+  margin-top: 0.25rem;
+}
+
+.pcard {
+  background: white;
+  border-radius: 16px;
+  padding: 1.25rem;
+  margin-bottom: 1rem;
+  box-shadow: var(--card-shadow);
+  border: 1px solid var(--border-color);
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  position: relative;
+  overflow: hidden;
+}
+
+.pcard::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 4px;
+  background: var(--primary-gradient-horizontal);
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+.pcard:hover {
+  transform: translateY(-4px);
+  box-shadow: var(--card-shadow-hover);
+  border-color: var(--border-hover);
+}
+
+.pcard:hover::before {
+  opacity: 1;
+}
+
+.pcard-muted {
+  background: var(--bg-muted);
+  border: 2px dashed #cbd5e1;
+  color: #64748b;
+  text-align: center;
+  padding: 3rem 1.5rem;
+}
+
+.pcard-head {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.pcard-avatar {
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  background: var(--primary-gradient);
+  color: white;
+  font-weight: 700;
+  font-size: 1.125rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  box-shadow: var(--avatar-shadow);
+  transition: all 0.3s ease;
+}
+
+.pcard:hover .pcard-avatar {
+  transform: scale(1.05);
+  box-shadow: var(--avatar-shadow-hover);
+}
+
+.pcard-meta {
+  flex: 1;
+  min-width: 0;
+}
+
+.pcard-name {
+  font-weight: 600;
+  font-size: 1.125rem;
+  color: var(--text-primary);
+  margin-bottom: 0.25rem;
+  transition: color 0.2s ease;
+  cursor: pointer;
+}
+
+.pcard-name:hover {
+  color: #667eea;
+}
+
+.pcard-sub {
+  color: var(--text-secondary);
+  font-size: 0.875rem;
+  font-weight: 500;
+}
+
+.clickable {
+  cursor: pointer;
+  user-select: none;
+}
+
+.pcard-action {
+  border: 0;
+  background: #e7f3ff;
+  color: #1877f2;
+  font-weight: 800;
+  padding: 8px 12px;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: 0.15s ease;
+}
+
+.pcard-action:hover {
+  background: #dbeafe;
+  transform: translateY(-1px);
+}
+
+.clickable {
+  cursor: pointer;
+}
+
+
+/* Responsive Design */
+@media (max-width: 640px) {
+  .friends-list {
+    padding: 0 0.5rem;
+  }
+  
+  .friends-header,
+  .pcard {
+    margin-left: 0;
+    margin-right: 0;
+  }
+}
+
+@media (max-width: 480px) {
+  .pcard {
+    padding: 1rem;
+  }
+  
+  .pcard-head {
+    gap: 0.75rem;
+  }
+  
+  .pcard-avatar {
+    width: 40px;
+    height: 40px;
+    font-size: 1rem;
+  }
+}

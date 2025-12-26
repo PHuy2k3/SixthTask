@@ -1,0 +1,251 @@
+/* =========================
+   POST CARD (SAFE OVERRIDES)
+   ========================= */
+
+/* ===== USER NAME ===== */
+.post-user {
+  font-weight: 900;
+  color: #0f172a;
+  font-size: 15px;
+  letter-spacing: -0.01em;
+}
+
+.clickable-user {
+  cursor: pointer;
+  display: inline-block;
+}
+
+.clickable-user:hover {
+  text-decoration: underline;
+  color: #1877f2;
+}
+
+/* ===== CARD ===== */
+/* ⚠️ card là class rất chung (PrimeReact cũng dùng). 
+   Nhưng vì bạn đang dùng <div className="card p-3 mb-3"> 
+   nên mình giữ và chỉ làm style “nhẹ”, không phá layout. */
+.card {
+  background: #ffffff;
+  border-radius: 14px;
+  border: 1px solid #e5e7eb;
+  box-shadow: 0 10px 26px rgba(15, 23, 42, 0.06);
+}
+
+.card img {
+  transition: transform 0.2s ease, filter 0.2s ease;
+}
+
+.card img:hover {
+  transform: scale(1.01);
+  filter: brightness(0.99);
+}
+
+/* ===== CONTENT TEXT (trong PostCard) ===== */
+.mt-2 {
+  margin-top: 8px;
+}
+
+.mb-3 {
+  margin-bottom: 12px;
+}
+
+/* ===== REACTION COUNTS ===== */
+.text-600 {
+  color: #64748b;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.text-600 span {
+  font-weight: 800;
+  color: #475569;
+}
+
+/* ===== REACT BUTTON ===== */
+/* ❌ bỏ global button (vì đè PrimeReact Button)
+   ✅ chỉ style nút react của bạn */
+.react-btn {
+  cursor: pointer;
+  border: 1px solid #e2e8f0;
+  background: #ffffff;
+  padding: 8px 14px;
+  border-radius: 999px;
+  font-weight: 900;
+  color: #0f172a;
+  transition: background 0.15s ease, transform 0.15s ease, box-shadow 0.15s ease;
+}
+
+.react-btn:hover {
+  background: #f1f5f9;
+  transform: translateY(-1px);
+  box-shadow: 0 8px 18px rgba(15, 23, 42, 0.08);
+}
+
+/* Nếu bạn dùng inline style btnStyle, vẫn ok.
+   Nhưng nếu muốn áp class cho nút react:
+   <button className="react-btn" ...> */
+
+/* ===== OVERLAY PANEL (REACTION POPUP) ===== */
+.p-overlaypanel {
+  border-radius: 999px !important;
+  box-shadow: 0 16px 40px rgba(2, 6, 23, 0.18) !important;
+  padding: 8px 12px !important;
+  border: 1px solid rgba(226, 232, 240, 0.9) !important;
+}
+
+.p-overlaypanel-content {
+  padding: 4px 6px !important;
+}
+
+.p-overlaypanel span {
+  transition: transform 0.15s ease;
+  user-select: none;
+}
+
+.p-overlaypanel span:hover {
+  transform: scale(1.35);
+}
+
+/* ===== COMMENT SECTION ===== */
+.comment-user {
+  font-weight: 900;
+  color: #0f172a;
+  cursor: pointer;
+}
+
+.comment-user:hover {
+  text-decoration: underline;
+  color: #1877f2;
+}
+
+/* nút view/hide comments (PrimeReact Button text) */
+.mt-2 > .p-button {
+  font-weight: 900;
+}
+
+/* comment input PrimeReact */
+.p-inputtext {
+  border-radius: 999px !important;
+}
+
+/* ===== POST IMAGE ===== */
+.post-img {
+  width: 100%;
+  border-radius: 12px;
+  cursor: pointer;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  border: 1px solid #e5e7eb;
+  background: #f1f5f9;
+}
+
+.post-img:hover {
+  transform: scale(1.01);
+  box-shadow: 0 14px 36px rgba(15, 23, 42, 0.12);
+}
+
+/* ===== MORE BUTTON (⋯) ===== */
+.post-more-btn {
+  border: 0;
+  background: transparent;
+  cursor: pointer;
+  font-size: 22px;
+  line-height: 1;
+  padding: 6px 10px;
+  border-radius: 10px;
+  color: #64748b;
+  transition: background 0.15s ease, transform 0.15s ease;
+}
+
+.post-more-btn:hover {
+  background: #f1f5f9;
+  transform: translateY(-1px);
+}
+
+/* ===== ACTIONS MENU ===== */
+.post-actions-menu {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  min-width: 150px;
+}
+
+.post-actions-item {
+  border: 0;
+  background: #fff;
+  padding: 10px 10px;
+  border-radius: 10px;
+  cursor: pointer;
+  text-align: left;
+  font-weight: 900;
+  color: #0f172a;
+  transition: background 0.15s ease, transform 0.15s ease;
+}
+
+.post-actions-item:hover {
+  background: #f1f5f9;
+  transform: translateY(-1px);
+}
+
+.post-actions-item.danger {
+  color: #dc2626;
+}
+
+.post-actions-item.danger:hover {
+  background: #fee2e2;
+}
+
+/* ===== IMAGE VIEWER (FULLSCREEN) ===== */
+.img-viewer {
+  position: fixed;
+  inset: 0;
+  background: rgba(2, 6, 23, 0.78);
+  z-index: 9999;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 16px;
+  cursor: zoom-out;
+}
+
+/* ✅ thêm lớp inner để không bị click xuyên + có khung */
+.img-viewer-inner {
+  position: relative;
+  max-width: 92vw;
+  max-height: 92vh;
+  cursor: default;
+}
+
+.img-viewer-inner img {
+  max-width: 92vw;
+  max-height: 92vh;
+  border-radius: 14px;
+  box-shadow: 0 30px 80px rgba(0, 0, 0, 0.55);
+  display: block;
+  background: #000;
+}
+
+/* nút close */
+.img-viewer-close {
+  position: absolute;
+  top: -12px;
+  right: -12px;
+  width: 42px;
+  height: 42px;
+  border-radius: 999px;
+  border: 0;
+  background: rgba(255, 255, 255, 0.92);
+  color: #0f172a;
+  font-size: 28px;
+  font-weight: 900;
+  cursor: pointer;
+  line-height: 42px;
+  text-align: center;
+  box-shadow: 0 14px 30px rgba(0, 0, 0, 0.25);
+  user-select: none;
+}
+
+.img-viewer-close:hover {
+  background: #fff;
+}

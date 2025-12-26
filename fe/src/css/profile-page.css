@@ -1,0 +1,89 @@
+/* ===== PROFILE TOP (NO COVER) ===== */
+
+.profile-top {
+  padding: 0;
+  overflow: hidden;
+}
+
+/* header gọn gàng, giống FB */
+.profile-header.no-cover {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  padding: 20px;
+}
+
+/* avatar lớn hơn vì không có cover */
+.profile-avatar {
+  width: 96px;
+  height: 96px;
+  border-radius: 999px;
+  background: linear-gradient(135deg, #667eea, #764ba2);
+  color: #fff;
+  font-weight: 900;
+  font-size: 36px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+}
+
+/* info */
+.profile-info {
+  flex: 1;
+}
+
+.profile-name {
+  font-size: 22px;
+  font-weight: 900;
+  color: #111827;
+}
+
+.profile-username {
+  margin-top: 2px;
+  font-size: 14px;
+  color: #6b7280;
+}
+
+/* stats */
+.profile-stats {
+  display: flex;
+  gap: 16px;
+  margin-top: 10px;
+}
+
+.profile-stat {
+  font-weight: 800;
+  color: #111827;
+  font-size: 14px;
+}
+
+.profile-stat span {
+  display: block;
+  font-weight: 600;
+  color: #6b7280;
+  font-size: 12px;
+}
+
+/* tabs */
+.profile-tabs {
+  border-top: 1px solid #e5e7eb;
+  display: flex;
+  gap: 8px;
+  padding: 8px;
+}
+
+.profile-tab {
+  flex: 0 0 auto;
+  padding: 8px 14px;
+  border-radius: 10px;
+  font-weight: 800;
+  cursor: pointer;
+  background: #f0f2f5;
+  color: #111827;
+}
+
+.profile-tab.active {
+  background: #1877f2;
+  color: #fff;
+}
